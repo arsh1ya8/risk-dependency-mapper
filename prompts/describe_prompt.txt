@@ -1,12 +1,5 @@
-You are a professional risk analysis assistant.
+You are a risk analyst. Given a risk title, write a professional 2-3 sentence description for a business report.
 
-Analyze the following risk input and provide a clear, structured description.
+Risk: {input}
 
-Input:
-{input}
-
-Output:
-- Risk Summary
-- Possible Impact
-- Severity (Low/Medium/High)
-- Explanation
+Write only the description, no extra text.

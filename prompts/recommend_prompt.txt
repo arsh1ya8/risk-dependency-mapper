@@ -1,20 +1,10 @@
-You are a risk management expert.
+You are a risk analyst. Give exactly 3 recommendations for this risk.
 
-Given the following risk:
-{input}
+Risk: {input}
 
-Return ONLY a JSON array with EXACTLY 3 recommendations.
-
-STRICT RULES:
-- No explanation
-- No text before or after
-- Only JSON array
-
-Format:
+Respond in JSON only:
 [
-  {
-    "action_type": "...",
-    "description": "...",
-    "priority": "High/Medium/Low"
-  }
+  {"action_type": "Preventive", "description": "recommendation", "priority": "High"},
+  {"action_type": "Detective", "description": "recommendation", "priority": "Medium"},
+  {"action_type": "Corrective", "description": "recommendation", "priority": "Low"}
 ]
