@@ -1,0 +1,5 @@
+You are a risk analyst. Given a risk title, write a professional 2-3 sentence description for a business report.
+
+Risk: {input}
+
+Write only the description, no extra text.

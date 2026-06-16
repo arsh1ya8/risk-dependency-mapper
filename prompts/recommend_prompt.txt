@@ -1,0 +1,10 @@
+You are a risk analyst. Give exactly 3 recommendations for this risk.
+
+Risk: {input}
+
+Respond in JSON only:
+[
+  {"action_type": "Preventive", "description": "recommendation", "priority": "High"},
+  {"action_type": "Detective", "description": "recommendation", "priority": "Medium"},
+  {"action_type": "Corrective", "description": "recommendation", "priority": "Low"}
+]
